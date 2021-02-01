@@ -18,7 +18,7 @@
 
 <div class="jumbotron">
   <h1 class="welcome">Welcome to Game Keeper</h1>
-  <div class="col-4 offset-4 align-self-center">
+  <div class="col-sm-4 offset-sm-4 align-self-center">
     <div class="input-group mb-3">
       <input type="text" id="search-word" class="form-control" placeholder="Search games" aria-label="Search games"
         aria-describedby="button-addon2">
@@ -35,7 +35,7 @@
   <div class="row container">
     <h3>Filter Search</h3>
     <hr>
-    <div class="col-3">
+    <div class="col-sm-3">
       <div class="form-check form-switch">
         <label for="playerMin" class="form-label">Minimum Players <span><input type="text" id="minPlayerInput"
               value=""></span></label>
@@ -44,7 +44,7 @@
           onchange="minPlayerInput(this.value)">
       </div>
     </div>
-    <div class="col-3">
+    <div class="col-sm-3">
       <div class="form-check form-switch">
         <label for="playerMax" class="form-label">Maximum Players <span><input type="text" id="maxPlayerInput"
               value=""></span></label>
@@ -53,7 +53,7 @@
           onchange="maxPlayerInput(this.value)">
       </div>
     </div>
-    <div class="col-3">
+    <div class="col-sm-3">
       <div class="form-check form-switch">
         <label for="gameTime" class="form-label">Max Game Time (minutes) <span><input type="text" id="timeInput"
               value=""></span></label>
@@ -62,7 +62,7 @@
           onchange="updateTimeInput(this.value)">
       </div>
     </div>
-    <div class="col-3">
+    <div class="col-sm-3">
       <div class="form-check form-switch">
         <label for="playerAge" class="form-label">Minimum Age <span><input type="text" id="ageInput"
               value=""></span></label>
@@ -76,7 +76,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-3">
+    <div class="col-sm-3">
       <h2 class="welcomeTitles">Sign up below to save your games!</h2>
       <form class="signup">
         <div class="form-group">
@@ -106,13 +106,13 @@
       <p>Or log in <a href="/login">here</a></p>
     </div>
 
-    <div class="col-9 searchGame">
+    <div class="col-sm-9 searchGame">
       <h2 class="welcomeTitles">Games</h2>
       <ul class="searchGames list-group d-flex flex-wrap justify-content-center overflow-auto">
       </ul>
     </div>
 
-    <div class="col-9 popularGame">
+    <div class="col-sm-9 popularGame">
       <h2 class="welcomeTitles">Popular Games</h2>
       <ul class="popGames list-group d-flex flex-wrap justify-content-center overflow-auto">
       </ul>
